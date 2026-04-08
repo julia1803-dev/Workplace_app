@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 from datetime import date
 
-API_URL = "http://127.0.0.1:8000"
+BASE_URL = "https://workplace-app-aqsv.onrender.com"
 
 st.set_page_config(page_title="Büro Anwesenheit", layout="wide")
 
